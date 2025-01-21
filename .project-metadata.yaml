@@ -10,7 +10,7 @@ environment_variables:
   CAII_API_BASE_URL:
     required: true
     description: >-
-      Base URL for the model hosted via the AI Inference Service
+      Base URL for the model hosted via the AI Inference Service, excluding the '/chat/completions' suffix
   CAII_MODEL_NAME:
     required: true
     description: >-
