@@ -1,0 +1,17 @@
+name: PSE Labs
+
+entries:
+  - title: Fully Private AI Agents with Cloudera
+    label: cai-private-ai-agents
+    short_description: |
+      This AMP shows how you can use Cloudera's AI Inference Service and CrewAI to orchestrate multiple private AI Agents within your own infrastructure.
+    long_description: |
+      Accelerator for ML Projects (AMP) that gets you started with using CrewAI and Cloudera's AI Inference Service. Make sure to deploy your own OpenAI-compatible model endpoint and then leverage this AMP to get started with building fully private AI Agents.
+    image_path: ""
+    tags: 
+      - Cloudera AI Inference
+      - Private AI
+      - LLM
+      - AI Agents
+    git_url: "https://github.com/shreshtab/CAI_Private_AI_Agents"
+    is_prototype: true
