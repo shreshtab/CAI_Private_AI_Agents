@@ -1,0 +1,32 @@
+name: Private AI Agents
+description: |
+  This AMP demonstrates building fully-private agentic workflows using LLMs hosted on the Cloudera AI Inference Service. We use CrewAI to create an agentic workflow that researches the top 5 cities in the US.
+author: Cloudera Inc.
+specification_version: 1.0
+prototype_version: 1.0
+date: "2025-01-20"
+
+environment_variables:
+  CAII_API_BASE_URL:
+    required: true
+    description: >-
+      Base URL for the model hosted via the AI Inference Service
+  CAII_MODEL_NAME:
+    required: true
+    description: >-
+      Name of the hosted model
+
+runtimes:
+  - editor: JupyterLab
+    kernel: Python 3.10
+    edition: Standard
+    version: "2024.10"
+
+tasks:
+  - type: run_session
+    name: Install Dependencies
+    script: 0_install_prereqs/install_prereqs.py
+    short_summary: Install Dependencies
+    kernel: python3
+    cpu: 2
+    memory: 12
