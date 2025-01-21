@@ -7,7 +7,7 @@ entries:
       This AMP shows how you can use Cloudera's AI Inference Service and CrewAI to orchestrate multiple private AI Agents within your own infrastructure.
     long_description: |
       Accelerator for ML Projects (AMP) that gets you started with using CrewAI and Cloudera's AI Inference Service. Make sure to deploy your own OpenAI-compatible model endpoint and then leverage this AMP to get started with building fully private AI Agents.
-    image_path: ""
+    image_path: "https://raw.githubusercontent.com/shreshtab/CAI_Private_AI_Agents/e4e22e143c90c82349682d40a0741ac94e0c669a/assets/AMP%20Banner.png?token=GHSAT0AAAAAAC46GQKMQN7PJ4NPM6WTLU4GZ4P7SGA"
     tags: 
       - Cloudera AI Inference
       - Private AI
