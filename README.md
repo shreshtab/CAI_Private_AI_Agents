@@ -1,7 +1,7 @@
 # Private AI Agents with Cloudera AI
 ![AMP Banner Image](./assets/AMP%20Banner.png)
 
-Curious about building fully-private AI agents? Look no further. This repo shows how you can integrate CrewAI with private LLMs deployed via Cloudera's AI Inference Service.
+Curious about building fully-private AI agents? Look no further. This repo shows how you can integrate CrewAI with private LLMs deployed via Cloudera's [AI Inference Service](https://www.cloudera.com/products/machine-learning/ai-inference-service.html).
 
 Check out the instructions available in the accompanying [blog](https://community.cloudera.com/t5/Community-Articles/Fully-Private-Agents-with-Cloudera-s-AI-Inference-Service/ta-p/400799).
 
